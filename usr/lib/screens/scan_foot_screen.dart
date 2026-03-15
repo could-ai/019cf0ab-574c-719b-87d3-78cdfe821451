@@ -60,7 +60,7 @@ class _ScanFootScreenState extends State<ScanFootScreen> {
                     ? Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Icon(Icons.footprint, size: 80, color: Colors.grey[700]),
+                          Icon(Icons.image_search, size: 80, color: Colors.grey[700]),
                           const SizedBox(height: 16),
                           Text('No image selected', style: TextStyle(color: Colors.grey[500])),
                         ],
